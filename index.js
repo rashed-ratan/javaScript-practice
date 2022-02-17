@@ -758,13 +758,40 @@ dived.addEventListener("mouseover", function (e) {
     console.log("offsetX = " + e.offsetX + " offsetY = "+e.offsetY)
 })
 */
-
+/*
 var buttons = document.querySelectorAll(".btn");
 Array.from(buttons).map((button) =>{
     button.addEventListener("click", function (e) {
         console.log(e.target.innerText)
     })
 })
+
+*/
+
+var c = document.getElementById("myCanvas")
+
+var ctx = c.getContext("2d");
+
+// ctx.lineWidth = 3;
+// ctx.strokeStyle = "black";
+// ctx.strokeRect(8,8,384,204)
+
+ctx.fillStyle = "#006b50";
+ctx.fillRect(10,10,380,200);
+
+var centerX = c.width / 2;
+var centerY = c.height / 2.7;
+
+ctx.beginPath();
+ctx.arc(centerX,centerY, 70,0,2*Math.PI,false);
+ctx.fillStyle = "#ee2e44";
+ctx.fill();
+
+
+
+
+
+
 
 
 
