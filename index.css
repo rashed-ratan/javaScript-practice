@@ -1,0 +1,32 @@
+.frm_input{
+    border: 2px solid red; 
+    padding: 30px;
+}
+
+
+.village_style {
+    color: tomato;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+button{
+    width: 60px;
+    height: 30px;
+}
+
+textarea{
+    margin: 20px;
+}
+
+.anim{
+    box-shadow: 0 15px 18px 0 tomato;
+    opacity: 2;
+}
+
+.clicked{
+    width: 200px;
+    height: 200px;
+    background: tomato;
+    margin: 20px;
+}
